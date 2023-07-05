@@ -1,0 +1,65 @@
+.page{
+  width: 1000px;
+  height: 1000px;
+  margin: auto;
+  font-family: sans-serif;
+  line-height: 30px;
+}
+body{
+  background-color: lightgreen;
+}
+.main{
+  width: 600px;
+  float: right;
+}
+.side-bar{
+  width: 300px;
+  float: left;
+  padding-top: 100px;
+  background-color: rgb(93, 243, 93);
+  height: 1200px;
+  border-radius: 10px;
+}
+.side-bar ul li a{
+  color: darkgreen;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 30px;
+}
+li {
+  list-style: none;
+  padding-bottom: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+p{
+  width: 650px;
+}
+h1{
+  padding-bottom: 15px;
+  padding-left: 140px;
+  border-bottom: 2px solid white;
+}
+.zabava{
+  width: 290px;
+}
+.quote{
+  width: 290px;
+  float: right;
+  height: 215px;
+}
+.footer .hats{
+  width: 200px;
+  margin-left: 90px;
+}
+.footer .birthday{
+  width: 200px;
+  height: 353px;
+}
+.footer .vacation{
+  width: 200px;
+  height: 353px;
+  float: right;
+}
+
